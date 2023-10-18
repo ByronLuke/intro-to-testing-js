@@ -3,8 +3,7 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-let input="Alex";
-function sayHello(input){
-    return `Hello, ${input}!`
-    }
-
+let input=true;
+function sayHello(input) {
+    return (input===false) ? "Hello, World!" : "Nothing"
+}
